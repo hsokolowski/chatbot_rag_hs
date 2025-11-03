@@ -1,0 +1,122 @@
+Q: What are the production 'Do's' for RAG?
+A: Based on the provided context, here is the answer:
+
+The "Do's" for RAG (Reinforcement-based Augmentation Generation) include:
+
+1. Balance retrieval vs. generation cost & latency
+2. Continuous evaluation of relevance & drift
+3. Governance for data freshness and accuracy
+4. Potential upgrade path: Genetic/Tuning RA G
+
+These are the key considerations for implementing RAG in a production environment.
+Sources:
+  1. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  2. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  3. data\Productized & Enterprise RAG.pdf (page 19)
+  4. 1 part. RAG Intro.mp4 (page -)
+  5. 1st Part_Productized Enterprise RAG.mp4 (page -)
+
+Q: What is the difference between standard retrieval and the ColPali approach?
+A: Based on the provided context, there is no direct mention of "ColPali" or a comparison with standard retrieval. However, I can try to provide an answer based on the information given.
+
+The text describes different approaches for retrieving data from a knowledge base, including vector search and keyword search. It also mentions that some systems use semantic chunking, which involves breaking down documents into smaller chunks based on their meaning.
+
+One approach mentioned is called "poly library changes", which uses a vision language model to describe the information contained in an image, rather than relying on OCR (Optical Character Recognition) technology. This approach seems to be more complex and may not be suitable for all situations.
+
+In general, it appears that the ColPali approach is not mentioned explicitly in this context. If you meant something else by "ColPali", please provide more information or clarify your question.
+Sources:
+  1. 2 part Databases for GenAI.mp4 (page -)
+  2. 2nd Part_Architecture & Design Patterns.mp4 (page -)
+  3. 1 part. RAG Intro.mp4 (page -)
+  4. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  5. 1 part. RAG Intro.mp4 (page -)
+
+Q: Why is hybrid search better than vector-only search?
+A: According to the context, hybrid search (combining vector search with BM25) increases accuracy by more than 10 percentage points compared to vector-only search. This is because BM25 provides statistical calculations based on word frequencies, which can help identify relevant documents even when there is no semantic understanding.
+Sources:
+  1. 2 part Databases for GenAI.mp4 (page -)
+  2. 2 part Databases for GenAI.mp4 (page -)
+  3. 2 part Databases for GenAI.mp4 (page -)
+  4. 2nd Part_Architecture & Design Patterns.mp4 (page -)
+  5. 1 part. RAG Intro.mp4.txt (page -)
+
+Q: What are the production 'Do's' for RAG?
+A: Based on the provided context, here is the answer:
+
+The "Do's" for RAG (Reinforcement-based Augmentation Generation) include:
+
+1. Balance retrieval vs. generation cost & latency
+2. Continuous evaluation of relevance & drift
+3. Governance for data freshness and accuracy
+4. Potential upgrade path: Genetic/Tuning RA G
+
+Note that these are general guidelines and may not be exhaustive or specific to a particular implementation of RAG.
+Sources:
+  1. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  2. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  3. data\Productized & Enterprise RAG.pdf (page 19)
+  4. 1 part. RAG Intro.mp4 (page -)
+  5. 1st Part_Productized Enterprise RAG.mp4 (page -)
+
+Q: What is the difference between standard retrieval and the ColPali approach?
+A: Based on the provided context, there is no mention of "ColPali" or a direct comparison between it and standard retrieval. However, I can try to provide an answer based on the information given.
+
+The text discusses the concept of Retrieval Augmented Generation (RUG) and its components, including vector search, metadata filtering, and chunking. It also mentions the use of embedding models for image recognition and the importance of semantic chunking in RUG.
+
+If we interpret "ColPali" as a hypothetical approach or system that uses some form of semantic chunking, then the main difference between standard retrieval and ColPali would be the level of complexity and sophistication brought by ColPali's use of semantic chunking. Standard retrieval might rely on simpler methods like keyword search or vector similarity, whereas ColPali would likely employ more advanced techniques to identify relevant chunks or documents based on their semantic meaning.
+
+Please note that this answer is speculative, as "ColPali" is not a real system or approach mentioned in the provided context.
+Sources:
+  1. 2 part Databases for GenAI.mp4 (page -)
+  2. 2nd Part_Architecture & Design Patterns.mp4 (page -)
+  3. 1 part. RAG Intro.mp4.txt (page -)
+  4. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  5. 1 part. RAG Intro.mp4 (page -)
+
+Q: Why is hybrid search better than vector-only search?
+A: According to the context, hybrid search (combining vector search with BM25) increases accuracy by more than 10 percentage points compared to vector-only search. This is because BM25 provides statistical calculations based on word frequencies in different documents, which helps improve the relevance of search results.
+Sources:
+  1. 2 part Databases for GenAI.mp4 (page -)
+  2. 2 part Databases for GenAI.mp4 (page -)
+  3. 2 part Databases for GenAI.mp4 (page -)
+  4. 2nd Part_Architecture & Design Patterns.mp4 (page -)
+  5. 1 part. RAG Intro.mp4.txt (page -)
+
+Q: What are the production 'Do's' for RAG?
+A: Based on the provided context, the "Do's" for RAG (Relevant Answer Generation) are:
+
+✅ Start simple, iterate based on metrics
+✅ Use metadata fitting (product, language, permissions)
+✅ Combine vector + keyword search (hybrid approach)
+✅ Monitor retrieval quality (recall @k, precision)
+✅ Keep embeddings synchronized with documents
+✅ Evaluate with domain-specific questions
+Sources:
+  1. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  2. data\RAG Intro.pdf (page 13)
+  3. data\Databases for GenAI.pdf (page 15)
+  4. 1 part. RAG Intro.mp4 (page -)
+  5. 1 part. RAG Intro.mp4.txt (page -)
+
+Q: What is the difference between standard retrieval and the ColPali approach?
+A: Based on the provided context, it seems that the ColPali approach is a specific type of retrieval mechanism that uses vector search to retrieve relevant data from a knowledge base. The main difference between standard retrieval and the ColPali approach appears to be the use of vector search in ColPali.
+
+In standard retrieval, the algorithm simply executes the query and retrieves relevant data without using any additional techniques. In contrast, the ColPali approach uses vector search to identify the most relevant concepts in a book or knowledge base that are related to the user's question. This allows for more precise retrieval of relevant information and ignores irrelevant content.
+
+Note: The context does not explicitly state the difference between standard retrieval and the ColPali approach, but based on the provided text, it can be inferred that the main difference is the use of vector search in ColPali.
+Sources:
+  1. 2nd Part_Architecture & Design Patterns.mp4 (page -)
+  2. 1st Part_Productized Enterprise RAG.mp4 (page -)
+  3. 1 part. RAG Intro.mp4 (page -)
+  4. 1 part. RAG Intro.mp4.txt (page -)
+  5. 1 part. RAG Intro.mp4 (page -)
+
+Q: Why is hybrid search better than vector-only search?
+A: According to the provided context, hybrid search (combining vector search with other approaches such as BM25 or reranking) increases accuracy by more than 10 percentage points compared to relying solely on vector search. This is because hybrid search allows for a more comprehensive evaluation of candidates and can provide better results when combining different search methods.
+Sources:
+  1. 2 part Databases for GenAI.mp4 (page -)
+  2. 2 part Databases for GenAI.mp4 (page -)
+  3. 1 part. RAG Intro.mp4.txt (page -)
+  4. 1 part. RAG Intro.mp4 (page -)
+  5. 2 part Databases for GenAI.mp4 (page -)
+
